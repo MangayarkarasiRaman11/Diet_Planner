@@ -1,0 +1,29 @@
+st.markdown(
+    """
+    <style>
+    /* Background Image */
+    .stApp {
+        background: url("https://your-image-url.com/image.jpg") no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    /* Make response scrollable */
+    .scrollable-response {
+        max-height: 400px;
+        overflow-y: auto;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+    }
+
+    /* Chat box styling */
+    .stChatMessage {
+        background-color: rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px 0;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
